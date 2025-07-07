@@ -1,0 +1,9 @@
+apiVersion: azure.upbound.io/v1beta1
+kind: ResourceGroup
+metadata:
+  name: am-100
+spec:
+  forProvider:
+    location: West Europe
+  providerConfigRef:
+    name: am-azure-provider-config
