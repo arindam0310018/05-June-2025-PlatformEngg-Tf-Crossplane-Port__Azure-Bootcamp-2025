@@ -19,7 +19,7 @@ Greetings and Welcome to __XXXX__.
 
 | 1. Implement Example Use Case Visual Diagram:- |
 | --------- |
-| <img src="/Images/20-Port-Example-Use-Case-Implementation.jpg"> |
+| <img src="Images/20-Port-Example-Use-Case-Implementation.jpg"> |
 
 | 2. Generate Port API Token:- |
 | --------- |
