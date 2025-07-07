@@ -1,6 +1,10 @@
 # Port | Internal Developer Portal:-
 
-Greetings and Welcome to __XXXX__.
+Greetings and Welcome to another amazing Session in __Azure Bootcamp 2025.__
+
+Discover how __Port, Internal Developer Portal simplifies cloud infrastructure__.
+
+Join me to learn more!
 
 | <img src="Images/01-Port.jpg"> |
 | --------- |
@@ -299,3 +303,6 @@ variable "location" {
 | __Terraform State File in Remote Storage Account.__ |
 | <img src="Images/42-State-File-Created.jpg"> |
 
+__Hope You Enjoyed the Session!!!__
+
+__Stay Safe | Keep Learning | Spread Knowledge__
