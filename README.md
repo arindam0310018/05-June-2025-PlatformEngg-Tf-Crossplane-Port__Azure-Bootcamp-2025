@@ -6,7 +6,7 @@
 This Repository contains __the topics presented in my Azure Bootcamp Switzerland 2025 Session__. List follows below:-
 
 | # | Topic Name  | Link Details |
-| --------- | --------- | --------- |
+| :---------: | :---------: | :---------: |
 | 1. | __Crossplane__ | https://github.com/arindam0310018/05-June-2025-PlatformEngg-Tf-Crossplane-Port__Azure-Bootcamp-2025/tree/main/01-Crossplane |
 | 2. | __Port__ | https://github.com/arindam0310018/05-June-2025-PlatformEngg-Tf-Crossplane-Port__Azure-Bootcamp-2025/tree/main/02-Port |
 
