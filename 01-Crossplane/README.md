@@ -1,6 +1,6 @@
-# Global Azure 2025: Crossplane powered Platform Engineering:-
+# Crossplane powered Platform Engineering:-
 
-Greetings and Welcome to another amazing Session in __Global Azure 2025 powered by Azure Zurich User Group.__
+Greetings and Welcome to another amazing Session in __Azure Bootcamp 2025.__
 
 Discover how __Crossplane simplifies cloud infrastructure__.
 
