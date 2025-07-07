@@ -1,0 +1,71 @@
+{
+  "identifier": "create_azure_resource_group",
+  "title": "Create Azure Resource Group",
+  "icon": "GithubActions",
+  "description": "Self Service - Create Azure Resource Group",
+  "trigger": {
+    "type": "self-service",
+    "operation": "CREATE",
+    "userInputs": {
+      "properties": {
+        "resource_group_name": {
+          "icon": "Azure",
+          "type": "string",
+          "title": "Resource Group Name",
+          "description": "Please Provide Resource Group Name"
+        },
+        "location": {
+          "icon": "Azure",
+          "type": "string",
+          "title": "Location",
+          "default": "westeurope",
+          "description": "Please Provide Location"
+        },
+        "environment": {
+          "type": "string",
+          "title": "Environment",
+          "icon": "Azure",
+          "description": "Please Select Environment Details",
+          "default": "dev",
+          "enum": [
+            "dev",
+            "staging",
+            "prod"
+          ],
+          "enumColors": {
+            "dev": "lightGray",
+            "staging": "lightGray",
+            "prod": "lightGray"
+          }
+        }
+      },
+      "required": [
+        "resource_group_name",
+        "location"
+      ],
+      "order": [
+        "resource_group_name",
+        "location",
+        "environment"
+      ]
+    },
+    "actionCardButtonText": "Create RG",
+    "executeActionButtonText": "Execute Now",
+    "blueprintIdentifier": "resource-group"
+  },
+  "invocationMethod": {
+    "type": "GITHUB",
+    "org": "arindam0310018",
+    "repo": "04-June-2025-Platform-Engineering__Test-IDP",
+    "workflow": "port_create-rg.yml",
+    "workflowInputs": {
+      "{{ spreadValue() }}": "{{ .inputs }}",
+      "port_context": {
+        "runId": "{{ .run.id }}",
+        "blueprint": "{{ .action.blueprint }}"
+      }
+    },
+    "reportWorkflowStatus": true
+  },
+  "requiredApproval": false
+}

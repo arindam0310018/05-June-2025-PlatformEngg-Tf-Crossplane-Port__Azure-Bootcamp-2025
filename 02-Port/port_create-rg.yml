@@ -1,0 +1,71 @@
+name: Port - Create Azure Resource Group
+
+on:
+  workflow_dispatch:
+    inputs:
+      resource_group_name:
+        description: "Name of the Azure Resource Group"
+        required: true
+        type: string
+      location:
+        description: "Azure Region"
+        required: true
+        type: string
+      environment:
+        description: "Environment tag"
+        required: false
+        type: string
+      port_context:
+        description: "Port run context (optional)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+      ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+      ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+      ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+      PORT_API_TOKEN: ${{ secrets.PORT_API_TOKEN }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.6.0
+
+      - name: Create tfvars from Port inputs
+        run: |
+          echo '{
+            "name": "${{ github.event.inputs.resource_group_name }}",
+            "location": "${{ github.event.inputs.location }}"
+          }' > terraform.tfvars.json
+
+      - name: Terraform Init with Remote Backend
+        run: terraform init -input=false
+
+      - name: Terraform Apply
+        run: terraform apply -auto-approve -var-file="terraform.tfvars.json"
+
+      - name: Report entity to Port
+        run: |
+          curl -X POST https://api.getport.io/v1/blueprints/resource-group/entities \
+          -H "Authorization: Bearer $PORT_API_TOKEN" \
+          -H "Content-Type: application/json" \
+          -d '{
+                "identifier": "${{ github.event.inputs.resource_group_name }}",
+                "title": "${{ github.event.inputs.resource_group_name }}",
+                "properties": {
+                  "name": "${{ github.event.inputs.resource_group_name }}",
+                  "location": "${{ github.event.inputs.location }}",
+                  "environment": "${{ github.event.inputs.environment }}"
+                }
+              }'

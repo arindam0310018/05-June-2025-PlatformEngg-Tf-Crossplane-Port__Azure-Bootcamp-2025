@@ -1,0 +1,35 @@
+{
+  "identifier": "resource-group",
+  "description": "This blueprint represents a resource group in Azure",
+  "title": "Azure Resource Group",
+  "icon": "Azure",
+  "schema": {
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Resource Group Name"
+      },
+      "location": {
+        "type": "string",
+        "title": "Location"
+      },
+      "environment": {
+        "type": "string",
+        "title": "Environment",
+        "enum": [
+          "dev",
+          "staging",
+          "prod"
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "location"
+    ]
+  },
+  "mirrorProperties": {},
+  "calculationProperties": {},
+  "aggregationProperties": {},
+  "relations": {}
+}
