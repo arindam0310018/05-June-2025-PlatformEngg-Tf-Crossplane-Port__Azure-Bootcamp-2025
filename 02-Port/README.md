@@ -2,7 +2,7 @@
 
 Greetings and Welcome to __XXXX__.
 
-| <img src="../Images/01-Port.jpg"> |
+| <img src="Images/01-Port.jpg"> |
 | --------- |
 
 | __#__ | __Topics__ |
@@ -23,21 +23,21 @@ Greetings and Welcome to __XXXX__.
 
 | 2. Generate Port API Token:- |
 | --------- |
-| <img src="../Images/21-Port-API-Token-1.jpg"> |
-| <img src="../Images/22-Port-API-Token-2.jpg"> |
+| <img src="Images/21-Port-API-Token-1.jpg"> |
+| <img src="Images/22-Port-API-Token-2.jpg"> |
 
 | 3. Create Github Repo + Repository Secret + Github Fined Grained PAT:- |
 | --------- |
 | __Github Repo:__ https://github.com/arindam0310018/04-June-2025-Platform-Engineering__Test-IDP |
 | __Github Repository Secret.__ |
-| <img src="../Images/23-Gh-Repo-Secret.jpg"> |
+| <img src="Images/23-Gh-Repo-Secret.jpg"> |
 | __Github Fined Grained PAT.__ |
-| <img src="../Images/24-Gh-PAT-1.jpg"> |
-| <img src="../Images/25-Gh-PAT-2.jpg"> |
+| <img src="Images/24-Gh-PAT-1.jpg"> |
+| <img src="Images/25-Gh-PAT-2.jpg"> |
 
 | 4. Create Resource Group Port Blueprint:- |
 | --------- |
-| <img src="../Images/26-Port-Blueprint.jpg"> |
+| <img src="Images/26-Port-Blueprint.jpg"> |
 
 __Resource Group Port Blueprint JSON:-__
 
@@ -82,15 +82,15 @@ __Resource Group Port Blueprint JSON:-__
 
 | 5. Create Port Self-Service Actions:- |
 | --------- |
-| <img src="../Images/27-Port-Actions-1.jpg"> |
-| <img src="../Images/28-Port-Actions-2.jpg"> |
-| <img src="../Images/29-Port-Actions-3.jpg"> |
-| <img src="../Images/30-Port-Actions-4.jpg"> |
-| <img src="../Images/31-Port-Gh-Installed-Apps.jpg"> |
-| <img src="../Images/32-Port-Actions-5.jpg"> |
+| <img src="Images/27-Port-Actions-1.jpg"> |
+| <img src="Images/28-Port-Actions-2.jpg"> |
+| <img src="Images/29-Port-Actions-3.jpg"> |
+| <img src="Images/30-Port-Actions-4.jpg"> |
+| <img src="Images/31-Port-Gh-Installed-Apps.jpg"> |
+| <img src="Images/32-Port-Actions-5.jpg"> |
 | __Github Fined Grained PAT is stored in Port > Credentials > Secrets__ |
-| <img src="../Images/33-Port-Actions-6.jpg"> |
-| <img src="../Images/34-Port-Actions-7.jpg"> |
+| <img src="Images/33-Port-Actions-6.jpg"> |
+| <img src="Images/34-Port-Actions-7.jpg"> |
 
 
 __Port Self-Service Actions JSON:-__
@@ -286,16 +286,16 @@ variable "location" {
 
 | 8. Execute Port Self Service Actions:- |
 | --------- |
-| <img src="../Images/27-Port-Actions-1.jpg"> |
-| <img src="../Images/35-Port-Actions-Execute-1.jpg"> |
-| <img src="../Images/36-Port-Actions-Execute-2.jpg"> |
-| <img src="../Images/37-Port-Actions-Execute-3.jpg"> |
-| <img src="../Images/38-Port-Actions-Execute-4.jpg"> |
+| <img src="Images/27-Port-Actions-1.jpg"> |
+| <img src="Images/35-Port-Actions-Execute-1.jpg"> |
+| <img src="Images/36-Port-Actions-Execute-2.jpg"> |
+| <img src="Images/37-Port-Actions-Execute-3.jpg"> |
+| <img src="Images/38-Port-Actions-Execute-4.jpg"> |
 | __Port's Runs History.__ |
-| <img src="../Images/39-Port-Actions-Runs-History-1.jpg"> |
-| <img src="../Images/40-Port-Actions-Runs-History-2.jpg"> |
+| <img src="Images/39-Port-Actions-Runs-History-1.jpg"> |
+| <img src="Images/40-Port-Actions-Runs-History-2.jpg"> |
 | __Resource Group Created successfully.__ |
-| <img src="../Images/41-RG-Created.jpg"> |
+| <img src="Images/41-RG-Created.jpg"> |
 | __Terraform State File in Remote Storage Account.__ |
-| <img src="../Images/42-State-File-Created.jpg"> |
+| <img src="Images/42-State-File-Created.jpg"> |
 
