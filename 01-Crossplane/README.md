@@ -6,12 +6,11 @@ Discover how __Crossplane simplifies cloud infrastructure__.
 
 Join me to learn more!
 
-| <img src="Images/01-Global-Azure.jpg" alt="Global Azure"> | <img src="Images/02-AZUG.jpg" alt="Azure Zurich User Group"> |
-| --------- | --------- |
+__LIVE DEMO__ was Recorded as part of my Presentation in __Global Azure - 2025__ powered by __Azure Zurich User Group__
 
 | __VIRTUAL SESSION:-__ |
 | --------- |
-| __LIVE DEMO__ was Recorded as part of my Presentation in __Global Azure - 2025__ powered by __Azure Zurich User Group__ |
+| <img src="Images/01-Global-Azure.jpg" alt="Global Azure"> | <img src="Images/02-AZUG.jpg" alt="Azure Zurich User Group"> |
 | Duration of My Demo = __51 Mins 16 Secs__ |
 | [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gjPY2RqUjzA/0.jpg)](https://www.youtube.com/watch?v=gjPY2RqUjzA) |
 
