@@ -1,7 +1,7 @@
 # Azure Bootcamp 2025: Platform Engineering with Terraform, Crossplane and Port:-
 
 | __EVENT SPONSORS:-__ |
-| :--------- |
+| --------- |
 | <img src="Az-Bootcamp-2025-Images/0-AM-Sponsor-abcs-2025.jpg"> |
 
 | __SPEAKERS & ORGANISERS GROUP SHOT:-__ |
