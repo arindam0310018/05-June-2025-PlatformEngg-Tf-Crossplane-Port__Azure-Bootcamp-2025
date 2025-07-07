@@ -23,6 +23,6 @@
 | <img src="Az-Bootcamp-2025-Images/6-AM-abcs-2025.jpeg"> |
 | <img src="Az-Bootcamp-2025-Images/7-AM-abcs-2025.jpeg"> |
 
-Hope You Enjoyed the Session!!!
+__Hope You Enjoyed the Session!!!__
 
-Stay Safe | Keep Learning | Spread Knowledge
+__Stay Safe | Keep Learning | Spread Knowledge__
