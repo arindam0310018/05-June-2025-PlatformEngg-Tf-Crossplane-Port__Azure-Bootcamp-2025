@@ -1,6 +1,6 @@
-# Chapter 04: Port | IDP | Implement Example Use Case:-
+# Port | Internal Developer Portal:-
 
-Greetings and Welcome to __Port IDP Learning | Chapter 04 | Implement Example Use Case__.
+Greetings and Welcome to __XXXX__.
 
 | <img src="../Images/01-Port.jpg"> |
 | --------- |
@@ -19,7 +19,7 @@ Greetings and Welcome to __Port IDP Learning | Chapter 04 | Implement Example Us
 
 | 1. Implement Example Use Case Visual Diagram:- |
 | --------- |
-| <img src="../Images/20-Port-Example-Use-Case-Implementation.jpg"> |
+| <img src="/Images/20-Port-Example-Use-Case-Implementation.jpg"> |
 
 | 2. Generate Port API Token:- |
 | --------- |
